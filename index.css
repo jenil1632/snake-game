@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.cell {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.snake {
+    background-color: green;
+    border: solid 1px darkgreen;
+    height: 20px;
+    width: 20px;
+}
+
+.food {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}
